@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    top: 0;
+    left: 0;
+}
+header{
+    margin-left: 0px;
+    margin-top: -8px;
+    width: 100%;
+    background-color: black;
+    height: 90px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.head{
+    display: flex;
+}
+#logo{
+    position: absolute;
+    border-radius: 5px;
+    padding: 13px 10px;
+    margin-left: 23px;
+    margin-top: 5px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+span{
+    color: rgb(194, 137, 13);
+}
+ul{
+    display: flex;
+    padding: 5px 5px;
+    width: 700px;
+    
+}
+li{
+    margin: 15px;
+    margin-left: 35%;
+    list-style: none;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+#item1{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#item2{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+#item3{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 20px;
+}
+#item4{
+    position: absolute;
+    margin-left:70%;
+    margin-top: 20px;
+}
+a{
+    color: white;
+}
+#item2:hover{
+    background-color: rgb(223, 191, 124);
+    border: 1px solid rgb(253, 217, 162);
+}
+#item3:hover{
+    background-color: rgb(223, 191, 124);
+    border: 1px solid rgb(253, 217, 162);
+}
+#item4:hover{
+    background-color: rgb(223, 191, 124);
+    border: 1px solid rgb(253, 217, 162);
+}
+#input{
+    border: 1px solid;
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 83%;
+    margin-top: 23px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#input:hover{
+    background-color: rgb(223, 191, 124);
+}
+::placeholder{
+    text-align: center;
+    font-size: 15px;
+}
+/*la parite accueil du site */
+#image{
+    width: 100%;
+    margin-top: 15px;
+    position: fixed;
+    margin-top: 82px;
+    height: 500px;
+}
+#accueil{
+   position: absolute;
+   width: 400px;
+   margin-top: 250px;
+   margin-left: 35%;
+   text-align: center;
+   padding: 10px;
+}
+#h2{
+    color: white;
+}
+#h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 35px;
+    font-style: italic;
+}
+#h3{
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+    font-style: italic;
+}
+#button{
+    border: none;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 35%;
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+   
+}
+#button:hover{
+    background-color: rgb(223, 191, 124);
+}
+.section-menu{
+    position: absolute;
+    margin-top: 60%;
+    padding:20px ;
+    margin-left: 13px;
+    width: 96.8%;
+    height: 80%;
+    background-color: white;
+} 
+.section-menu h2{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin-left: 40%;
+    padding: 12px 10px;
+}
+#menu{
+    border: 1px solid black;
+    width: 350px;
+    margin-top: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.section-pizza{
+    border: 1px solid black;
+    width: 670px;
+    margin-top: 55px;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: -18px;
+}
+.categorie-pizza{
+    position: absolute;
+    width: 100px;
+    margin-left: 35%;
+    margin-top: 225px;
+    color: white;
+}
+.categorie-pizza h3{
+    margin-top: -75px;
+    position: absolute;
+    width: 300px;
+    margin-left: -35px;
+    font-style: italic;
+    font-size: 20px;
+}
+.categorie-pizza p{
+    padding: 5px ;
+}
+.categorie-pizza #pizza1{
+    width: 220px;
+}
+.categorie-pizza #pizza2{
+    width: 220px;
+}
+.categorie-pizza #pizza3{
+    width: 220px;
+}
+.categorie-pizza #pizza4{
+    width: 220px;
+}
+.categorie-pizza #pizza5{
+    width: 220px;
+}
+.commande{
+    padding: 10px;
+    width: 220px;
+    margin-top: 35px;
+    margin-left: -30px;
+    border-radius: 5px;
+    background-color: rgb(223, 191, 124);
+}
+.commande:hover{
+    background-color: white;
+}
+
+
+.section-burger{
+    border: 1px solid black;
+    width: 670px;
+    margin-top: 55px;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 50%;
+}
+#menu1{
+    border: 1px solid black;
+    width: 350px;
+    margin-top: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.section-burger{
+    position: absolute;
+    border: 1px solid black;
+    width: 670px;
+    margin-top: 127.3px;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 50%;
+}
+.categorie-burger{
+    position: absolute;
+    width: 100px;
+    margin-left: 83%;
+    margin-top: 225px;
+    color: white;
+}
+.categorie-burger h3{
+    margin-top: -75px;
+    position: absolute;
+    width: 300px;
+    margin-left: -35px;
+    font-style: italic;
+    font-size: 20px;
+}
+.categorie-burger p{
+    padding: 5px ;
+}
+.categorie-burger #burger1{
+    width: 220px;
+}
+.categorie-burger #burger2{
+    width: 220px;
+}
+.categorie-burger #burger3{
+    width: 220px;
+}
+.categorie-burger #burger4{
+    width: 220px;
+}
+.categorie-burger #burger5{
+    width: 220px;
+}
+.commande1{
+    padding: 10px;
+    width: 220px;
+    margin-top: 35px;
+    margin-left: -30px;
+    border-radius: 5px;
+    background-color: rgb(223, 191, 124);
+}
+.commande1:hover{
+    background-color: white;
+}
+
+
+
+/* Style global pour le formulaire */
+form.formulaire {
+  position: absolute;
+  margin-top: 100%;
+  border: none;
+  background-color: rgb(194, 137, 13);
+  width: 80%;
+  flex-wrap: wrap;
+  height: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+}
+form.formulaire h2{
+  padding: 15px;
+  width: 20%;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  margin-left: 40%;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+form.formulaire .input{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 80px;
+  border:none ;
+  width: 90%;
+}
+form.formulaire .input-box1{
+  border-radius: 5px;
+  padding: 15px;
+  width: 280px;
+  margin-left: 15px;
+  border: 1px solid white ;
+}
+.input-box1 .label{
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
+.input-box1 #name{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 10px ;
+  border-radius: 5px;
+}
+
+form.formulaire .input-box2{
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+.input-box2 .label{
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
+.input-box2 #email{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 10px ;
+  border-radius: 5px;
+}
+
+form.formulaire .input-box3{
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+.input-box3 .label{
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
+.input-box3 #phone{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 10px ;
+  border-radius: 5px;
+}
+
+
+
+form.formulaire .input-box4{
+  border-radius: 5px;
+  padding: 15px;
+  width: 280px;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+.input-box4 .label{
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  margin-left: 11%;
+  margin-top: 20% ;
+
+}
+.input-box4 #date{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 14% ;
+  border-radius: 5px;
+  margin-left: 7px;
+  width: 170px;
+}
+
+form.formulaire .input-box5{
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+.input-box5 .label{
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  margin-left: 42%;
+  margin-top: 20%;
+}
+.input-box5 #time{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 40px ;
+  border-radius: 5px;
+  margin-left: 7px;
+  width: 170px;
+}
+
+
+form.formulaire .input-box6{
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+.input-box6 .label{
+  font-size: 24px;
+  color: white;
+  margin-left: 70%;
+  position: absolute;
+  margin-top: 20%;
+}
+.input-box6 #menu{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 40px ;
+  border-radius: 5px;
+  width: 170px;
+  margin-left: -1px;
+}
+
+
+form.formulaire .input-box7{
+  border-radius: 5px;
+  padding: 15px;
+  width: 278px;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+.input-box7 .label{
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
+.input-box7 #preferences{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 10px ;
+  border-radius: 5px;
+  margin-left: 7px;
+  width: 170px;
+}
+
+form.formulaire .input-box8{
+  border-radius: 5px;
+  padding: 15px;
+  width: 255px;
+  margin-left: 32%;
+  border: 1px solid white;
+}
+.input-box8 .label{
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
+.input-box8 #payment{
+  border: none;
+  padding: 10px 12px;
+  margin-top: 10px ;
+  border-radius: 5px;
+  margin-left: 7px;
+  width: 190px;
+}
+#Envoyer{
+  border: none;
+  padding: 12px 12px;
+  width: 240px;
+  margin-left: 40%;
+  border-radius: 5px;
+}
+.content-footer{
+  position: absolute;
+  margin-top: 100%;
+  border: none;
+  background-color: rgb(194, 137, 13);
+  width: 80%;
+  flex-wrap: wrap;
+  height: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
